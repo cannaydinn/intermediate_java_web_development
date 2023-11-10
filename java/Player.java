@@ -11,7 +11,6 @@ public class Player {
     private Scanner sc = new Scanner(System.in);
 
     public Player(String name){
-        super();
         this.name = name;
         this.inventory = new Inventory();
     }
